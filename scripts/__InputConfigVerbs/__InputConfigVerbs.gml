@@ -26,7 +26,7 @@ function __InputConfigVerbs()
     InputDefineVerb(INPUT_VERB.DOWN,    "down",       [vk_down,  "S"],    [ gp_axislv, gp_padd]);
     InputDefineVerb(INPUT_VERB.LEFT,    "left",       [vk_left,  "A"],    [-gp_axislh, gp_padl]);
     InputDefineVerb(INPUT_VERB.RIGHT,   "right",      [vk_right, "D"],    [ gp_axislh, gp_padr]);
-    InputDefineVerb(INPUT_VERB.ACTION,  "action",     [vk_enter, "Z"],      gp_face1);
+    InputDefineVerb(INPUT_VERB.ACTION,  "action",      "Z",                 gp_face1);
     InputDefineVerb(INPUT_VERB.SPECIAL, "special",     vk_shift,            gp_face2);
     
     if (INPUT_ON_SWITCH)
