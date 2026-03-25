@@ -31,10 +31,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"hspeed_","filters":[],"listItems":[],"multiselect":false,"name":"hspeed_","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"vspeed_","filters":[],"listItems":[],"multiselect":false,"name":"vspeed_","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"max_speed","filters":[],"listItems":[],"multiselect":false,"name":"max_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"og_speed","filters":[],"listItems":[],"multiselect":false,"name":"og_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"accel_","filters":[],"listItems":[],"multiselect":false,"name":"accel_","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"max_speed/4","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"friction_","filters":[],"listItems":[],"multiselect":false,"name":"friction_","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"accel_","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"bullet_type","filters":[],"listItems":[],"multiselect":false,"name":"bullet_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"standard\"","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -3,12 +3,11 @@
 
 global.is_paused = false;
 
-current_points = 0;
 
-room_set_width(rm_levels, 480);
-room_set_height(rm_levels, 270);
+room_set_width(rm_levels, 1280);
+room_set_height(rm_levels, 720);
 
 //Set Room Dimensions
-room_width = 640;
-room_height = 480;
+room_width = 1280;
+room_height = 720;
 

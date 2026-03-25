@@ -18,25 +18,25 @@ diag = (gp_up or gp_down) and (gp_left or gp_right);
 #region movement
 if hmove != 0
 {
-	hspeed_ += hmove *accel_;
-	hspeed_ = clamp(hspeed_, -max_speed, max_speed);
+	hspeed_ += hmove * Obj_game_manager.accel_;
+	hspeed_ = clamp(hspeed_, -Obj_game_manager.max_speed, Obj_game_manager.max_speed);
 }
 else
 {
-	hspeed_ = lerp(hspeed_,0,friction_);
+	hspeed_ = lerp(hspeed_,0,Obj_game_manager.friction_);
 }
 
 if vmove != 0
 {
-	vspeed_ += vmove*accel_;
-	vspeed_ = clamp(vspeed_, -max_speed, max_speed);
+	vspeed_ += vmove*Obj_game_manager.accel_;
+	vspeed_ = clamp(vspeed_, -Obj_game_manager.max_speed, Obj_game_manager.max_speed);
 }
 else
 {
-	vspeed_ = lerp(vspeed_,0,friction_);
+	vspeed_ = lerp(vspeed_,0,Obj_game_manager.friction_);
 }
 
-diagspeed_ = sqrt(max_speed)/2;
+diagspeed_ = sqrt(Obj_game_manager.max_speed)/2;
 
 if diag
 {
@@ -45,7 +45,7 @@ if diag
 }
 else
 {
-	max_speed = og_speed;
+	Obj_game_manager.max_speed = Obj_game_manager.og_speed;
 }
 
 x += hspeed_;
@@ -57,7 +57,8 @@ if can_shoot == true
 {
 	if gp_shoot 
 	{
-		instance_create_layer(x,y, "Instances",obj_bullet);
+		//instance_create_layer(x,y, "Instances",obj_bullet);
+		bullet(bullet_type);
 		can_shoot = false;
 		alarm[0] = 10;
 	}

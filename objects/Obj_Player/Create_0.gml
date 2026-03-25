@@ -13,9 +13,8 @@ enum PLAYER_STATE
 
 enum BULLET_TYPE
 {
-	BALKAN,
-	CANDY_CORN,
-	PUMPKIN_BOMB,
+	STANDARD,
+	CANDY_CORN
 }
 
 curr_shot_level = 1;

@@ -196,6 +196,7 @@
     {"id":{"name":"__InputVibrateClassPulse","path":"scripts/__InputVibrateClassPulse/__InputVibrateClassPulse.yy",},},
     {"id":{"name":"__InputVibrateConfig","path":"scripts/__InputVibrateConfig/__InputVibrateConfig.yy",},},
     {"id":{"name":"__InputVibrateSystem","path":"scripts/__InputVibrateSystem/__InputVibrateSystem.yy",},},
+    {"id":{"name":"bullet_script","path":"scripts/bullet_script/bullet_script.yy",},},
     {"id":{"name":"InputBindingFind","path":"scripts/InputBindingFind/InputBindingFind.yy",},},
     {"id":{"name":"InputBindingFindCollisions","path":"scripts/InputBindingFindCollisions/InputBindingFindCollisions.yy",},},
     {"id":{"name":"InputBindingGet","path":"scripts/InputBindingGet/InputBindingGet.yy",},},
