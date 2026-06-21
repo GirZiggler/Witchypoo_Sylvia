@@ -61,6 +61,7 @@ if can_shoot == true
 		bullet(bullet_type);
 		can_shoot = false;
 		alarm[0] = 10;
+		audio_play_sound(player_shoot_sound, 2, false);
 	}
 }
 
