@@ -10,46 +10,24 @@ gp_up =		InputCheck(INPUT_VERB.UP);
 gp_down =	InputCheck(INPUT_VERB.DOWN);
 gp_shoot =	InputPressed(INPUT_VERB.ACTION);
 
-hmove = gp_right - gp_left;
-vmove = gp_down - gp_up;
+hSpeed = gp_right - gp_left;
+vSpeed = gp_down - gp_up;
 diag = (gp_up or gp_down) and (gp_left or gp_right);
 
 
 #region movement
-if hmove != 0
+if hSpeed != 0
 {
-	hspeed_ += hmove * Obj_game_manager.accel_;
-	hspeed_ = clamp(hspeed_, -Obj_game_manager.max_speed, Obj_game_manager.max_speed);
-}
-else
-{
-	hspeed_ = lerp(hspeed_,0,Obj_game_manager.friction_);
+	x += hSpeed * move_speed;
 }
 
-if vmove != 0
+
+if vSpeed != 0
 {
-	vspeed_ += vmove*Obj_game_manager.accel_;
-	vspeed_ = clamp(vspeed_, -Obj_game_manager.max_speed, Obj_game_manager.max_speed);
-}
-else
-{
-	vspeed_ = lerp(vspeed_,0,Obj_game_manager.friction_);
+	y += vSpeed * move_speed;
 }
 
-diagspeed_ = sqrt(Obj_game_manager.max_speed)/2;
 
-if diag
-{
-	hspeed_ *= diagspeed_;
-	vspeed_ *= diagspeed_;
-}
-else
-{
-	Obj_game_manager.max_speed = Obj_game_manager.og_speed;
-}
-
-x += hspeed_;
-y += vspeed_;
 #endregion movement
 
 #region attack
@@ -66,3 +44,8 @@ if can_shoot == true
 }
 
 #endregion attack
+
+if hp_ <= 0
+{
+	instance_destroy();
+}

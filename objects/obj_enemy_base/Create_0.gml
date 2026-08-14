@@ -1,4 +1,4 @@
-hp_ = 4;
+hp_ = 3;
 image_speed = 0;
 image_index = 0;
 

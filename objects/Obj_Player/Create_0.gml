@@ -17,11 +17,16 @@ enum BULLET_TYPE
 	CANDY_CORN
 }
 
-curr_shot_level = 1;
-curr_bomb_level = 3;
+bullet_type = "standard";
 
-//max speed for x and y speeds
-max_x_speed = 120;
-max_y_speed = 120;
+move_speed = 7;
+hSpeed = 0;
+vSpeed = 0;
+
 
 can_shoot = true;
+
+hp_ = 4;
+
+image_speed = 0;
+image_index = 0;
