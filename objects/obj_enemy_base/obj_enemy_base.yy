@@ -37,5 +37,9 @@
     "path":"sprites/s_badguy/s_badguy.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pausable",
+    "pauseable",
+  ],
   "visible":true,
 }

@@ -183,8 +183,9 @@ function __InputCreateTypeLookup()
         _struct[$ "7e051e20"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0ff600"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6f0e8601"] = INPUT_GAMEPAD_TYPE_SWITCH;
-        _struct[$ "6f0e8b01"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6f0e8c01"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "7e056920"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "6f0e9301"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0fc100"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0f9200"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6f0e8001"] = INPUT_GAMEPAD_TYPE_SWITCH;
@@ -193,6 +194,7 @@ function __InputCreateTypeLookup()
         _struct[$ "6f0e8501"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6f0e8701"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6f0e8801"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "6f0e8b01"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0faa00"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "d62011a7"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "d62012a7"] = INPUT_GAMEPAD_TYPE_SWITCH;
@@ -206,6 +208,10 @@ function __InputCreateTypeLookup()
         _struct[$ "dd330300"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0ff000"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "0d0fdc00"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "6f0e9601"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "6f0e9701"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "6f0e9801"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "4c05f20d"] = INPUT_GAMEPAD_TYPE_PS5;
         _struct[$ "6e050720"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "6e050820"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "40177905"] = INPUT_GAMEPAD_TYPE_SWITCH;
@@ -243,6 +249,8 @@ function __InputCreateTypeLookup()
         _struct[$ "dd331d00"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "dd331700"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "f5108f01"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "d62020a7"] = INPUT_GAMEPAD_TYPE_SWITCH;
+        _struct[$ "0d0ffb00"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "92124b46"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "f8211900"] = INPUT_GAMEPAD_TYPE_SWITCH;
         _struct[$ "00f00300"] = INPUT_GAMEPAD_TYPE_SWITCH;

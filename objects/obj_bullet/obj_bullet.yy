@@ -36,5 +36,9 @@
     "path":"sprites/S_Bullet/S_Bullet.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "pausable",
+    "pauseable",
+  ],
   "visible":true,
 }

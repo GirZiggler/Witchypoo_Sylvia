@@ -28,6 +28,7 @@ function __InputConfigVerbs()
     InputDefineVerb(INPUT_VERB.RIGHT,   "right",      [vk_right, "D"],    [ gp_axislh, gp_padr]);
     InputDefineVerb(INPUT_VERB.ACTION,  "action",     [vk_enter, "Z"],      gp_face1);
     InputDefineVerb(INPUT_VERB.SPECIAL, "special",    [vk_shift, "X"],      gp_face2);
+	InputDefineVerb(INPUT_VERB.PAUSE,   "pause",	   vk_escape,			gp_start);
     
     if (INPUT_ON_SWITCH_X)
     {

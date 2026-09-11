@@ -48,4 +48,5 @@ if can_shoot == true
 if hp_ <= 0
 {
 	instance_destroy();
+	
 }

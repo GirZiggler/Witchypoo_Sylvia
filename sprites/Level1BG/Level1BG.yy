@@ -88,6 +88,9 @@
   },
   "swatchColours":null,
   "swfPrecision":0.5,
+  "tags":[
+    "pauseable",
+  ],
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
