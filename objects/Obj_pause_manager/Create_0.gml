@@ -5,6 +5,7 @@ unpause_queue = [];
 
 pause_object = function(_obj_or_id)
 {
+	
 	array_push(pause_queue, _obj_or_id);
 }
 
